@@ -1,0 +1,13 @@
+#problem3
+
+def sumTo(aBound):
+    "Loop until"
+theSum = 0
+aBound = 100
+aNumber = 0
+n = input("type a number")
+while aNumber <= aBound:
+    print(n)
+    theSum = theSum + aNumber
+    aNumber = aNumber + n
+print(sumTo(100))
