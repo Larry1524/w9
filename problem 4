@@ -1,0 +1,38 @@
+def sumTo(aBound):
+    "Loop until"
+theSum = 0
+aBound = 50
+aNumber = 0
+
+if aNumber == 10:
+    print("divisible by 10")
+else:
+    print(aNumber)
+
+if aNumber == 20:
+    print("divisible by 10")
+else:
+    print(aNumber)
+
+if aNumber == 30:
+    print("divisible by 10")
+else:
+    print(aNumber)
+
+if aNumber == 40:
+    print("divisible by 10")
+else:
+    print(aNumber)
+
+if aNumber == 50:
+    print("divisible by 10")
+else:
+    print(aNumber)
+
+while aNumber <= aBound:
+    theSum = theSum + aNumber
+    aNumber = aNumber + 1
+    print(aNumber)
+
+print(sumTo(50))
+
