@@ -1,0 +1,12 @@
+#problem2
+l=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+def sumTo(aBound):
+    "Loop until"
+theSum = 0
+aBound = 10
+aNumber = 1
+while aNumber <= aBound:
+    print(l)
+    theSum = theSum + aNumber
+    aNumber = aNumber + 1
+print(sumTo(10))
